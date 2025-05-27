@@ -1,0 +1,34 @@
+module alu_4bit_tb;
+
+	reg [3:0] A, B;
+	reg [2:0] opcode;
+	wire [3:0] result;
+	wire carry_out;
+	wire zero_flag;
+
+	alu_4bit uut (
+		.A(A),
+		.B(B),
+		.opcode(opcode),
+		.result(result),
+		.carry_out(carry_out),
+		.zero_flag(zero_flag)
+);
+
+	initial begin
+		$display("Staring ALU 4 bit test...");
+		$monitor("Time=%0t | A=%b B =%b | Opcode=%b => Result=%b Carry =%b Zero=%b", $time, A, B, opcode, result, carry_out, zero_flag);
+
+	
+	A = 4'b1010; B = 4'b1100; opcode = 3'b000; #10; //Test AND
+	A = 4'b1010; B = 4'b1100; opcode = 3'b001; #10; //Test OR
+	A = 4'b0111; B = 4'b0001; opcode = 3'b010; #10; //Test ADD
+	A = 4'b1001; B = 4'b0011; opcode = 3'b011; #10; //Test SUB
+	A = 4'b1111; B = 4'b1010; opcode = 3'b100; #10; //Test XOR
+	A = 4'b0101; opcode = 3'b101; #10; //Test NOT
+	A = 4'b1111; opcode = 3'b110; #10; //Test INC
+	A = 4'b0000; opcode = 3'b111; #10; //Test DEC
+	$finish;
+	end
+endmodule
+	

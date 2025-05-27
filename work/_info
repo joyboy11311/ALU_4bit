@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dA:/IC Design/Test
+valu_4bit
+!s110 1748350388
+!i10b 1
+!s100 ]j3R7AZ][[2SiA0^IZdLA2
+Iz0kW[W7I=1e>@C@WQO<:j3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dA:/IC Design/Test/ALU_4bit
+w1748350381
+8A:/IC Design/Test/alu_4bit.v
+FA:/IC Design/Test/alu_4bit.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1748350388.000000
+!s107 A:/IC Design/Test/alu_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|A:/IC Design/Test/alu_4bit.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+valu_4bit_tb
+!s110 1748351259
+!i10b 1
+!s100 PdSW8NcU4@]2J2SI7laYo3
+I9bZNG[ICcK^F?G2L[BDTK2
+R0
+R1
+w1748351255
+8A:/IC Design/Test/ALU_4bit/alu_4bit_tb.v
+FA:/IC Design/Test/ALU_4bit/alu_4bit_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1748351259.000000
+!s107 A:/IC Design/Test/ALU_4bit/alu_4bit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|A:/IC Design/Test/ALU_4bit/alu_4bit_tb.v|
+!i113 1
+R3
+R4
